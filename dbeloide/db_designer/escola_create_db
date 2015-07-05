@@ -1,0 +1,82 @@
+CREATE TABLE aluno (
+  idaluno INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  responssavel_idresponssavel INTEGER UNSIGNED NOT NULL,
+  nome VARCHAR(45) NULL,
+  fone INTEGER UNSIGNED NULL,
+  PRIMARY KEY(idaluno),
+  INDEX aluno_FKIndex1(responssavel_idresponssavel)
+);
+
+CREATE TABLE materia (
+  idmateria INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(45) NULL,
+  PRIMARY KEY(idmateria)
+);
+
+CREATE TABLE matricula (
+  ano INTEGER UNSIGNED NOT NULL,
+  aluno_idaluno INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  turma VARCHAR(45) NULL,
+  PRIMARY KEY(ano, aluno_idaluno),
+  INDEX matricula_FKIndex1(aluno_idaluno)
+);
+
+CREATE TABLE mensalidade (
+  matricula_aluno_idaluno INTEGER UNSIGNED NOT NULL,
+  matricula_ano INTEGER UNSIGNED NOT NULL,
+  mensalidade INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  data_pgto INTEGER UNSIGNED NULL,
+  ano INTEGER UNSIGNED NULL,
+  PRIMARY KEY(matricula_aluno_idaluno, matricula_ano),
+  INDEX mensalidade_FKIndex1(matricula_ano, matricula_aluno_idaluno)
+);
+
+CREATE TABLE nota (
+  idnota INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  b1 INTEGER UNSIGNED NULL,
+  b2 INTEGER UNSIGNED NULL,
+  b3 INTEGER UNSIGNED NULL,
+  b4 INTEGER UNSIGNED NULL,
+  r1 INTEGER UNSIGNED NULL,
+  r2 INTEGER UNSIGNED NULL,
+  PRIMARY KEY(idnota)
+);
+
+CREATE TABLE professor (
+  idprofessor INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(45) NULL,
+  PRIMARY KEY(idprofessor)
+);
+
+CREATE TABLE responssavel (
+  idresponssavel INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(45) NULL,
+  fone INTEGER UNSIGNED NULL,
+  endereco VARCHAR(20) NULL,
+  PRIMARY KEY(idresponssavel)
+);
+
+CREATE TABLE turma_professor_materia (
+  id_turma INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  materia_idmateria INTEGER UNSIGNED NOT NULL,
+  professor_idprofessor INTEGER UNSIGNED NOT NULL,
+  ano_turma INTEGER UNSIGNED NULL,
+  PRIMARY KEY(id_turma, materia_idmateria, professor_idprofessor),
+  INDEX turma_professor_materia_FKIndex1(professor_idprofessor),
+  INDEX turma_professor_materia_FKIndex2(materia_idmateria)
+);
+
+CREATE TABLE turma_professor_materia_has_matricula (
+  turma_professor_materia_professor_idprofessor INTEGER UNSIGNED NOT NULL,
+  turma_professor_materia_materia_idmateria INTEGER UNSIGNED NOT NULL,
+  turma_professor_materia_id_turma INTEGER UNSIGNED NOT NULL,
+  matricula_aluno_idaluno INTEGER UNSIGNED NOT NULL,
+  matricula_ano INTEGER UNSIGNED NOT NULL,
+  nota_idnota INTEGER UNSIGNED NOT NULL,
+  PRIMARY KEY(turma_professor_materia_professor_idprofessor, turma_professor_materia_materia_idmateria, turma_professor_materia_id_turma, matricula_aluno_idaluno, matricula_ano),
+  INDEX turma_professor_materia_has_matricula_FKIndex1(turma_professor_materia_id_turma, turma_professor_materia_materia_idmateria, turma_professor_materia_professor_idprofessor),
+  INDEX turma_professor_materia_has_matricula_FKIndex2(matricula_ano, matricula_aluno_idaluno),
+  INDEX turma_professor_materia_has_matricula_FKIndex3(nota_idnota)
+);
+
+
