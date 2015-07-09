@@ -1,0 +1,45 @@
+daenerys	,98352321, rua almirante
+jon			,98545521, rua pedro miranda
+eddard		,96556856, rua barao do triunfo
+robert		,98655676, rua barao de igarape miri
+robb		,98754431, rua barao de mamore
+catelyn		,98345731, rua jeronimo pimentel
+arryn		,89753341, rua alcindo cacela
+rickon		,90938421, rua 14 de abril
+osha		,98509402, rua 9 de janeiro
+hodor		,98589324, rua wandecock
+sam			,99834221, rua dom romualdo
+arya		,98239482, rua municipalidade
+sonsa		,87349221, rua conselheiro
+khal		,99823743, rua humaita
+drogo		,92837421, rua gentil
+kahleesi	,83729892, rua mundurucus
+evelyn		,83429221, rua tupinambas
+yuki		,98573248, rua tamoios
+joffrey		,87394241, rua apinages
+jaime		,87234981, rua duque de caxias
+cersei		,98274221, rua romulo maiorana
+chaplin		,98523941, rua timbo
+merryn		,34534521, rua do chaco
+melisandre	,34435521, rua fransisco monsteiro
+stannis		,34875691, rua pedro alvares
+tyrion		,32253621, rua teofilo cunduru
+tywin		,32873789, rua olaria
+myrcella	,33980091, rua roso danin
+theon		,38762397, rua silva rosado
+ramsay		,32867891, rua soares carneiro
+george		,32878651, rua joao balbi
+martin		,32989890, rua curuça
+bolton		,30292836, rua antonio barreto
+ellya		,32878591, rua oliveira belo
+oberyn		,88738671, rua diogo moia
+illyn		,98297381, rua jose bonifacio
+viserys		,83037361, rua castelo branco
+aegon		,38464821, rua djalma dutra
+greyworm	,33838361, rua fernando guilhon
+misandei	,33438273, rua marques de herval
+ghost		,32520195, rua quintino
+margaery	,98373731, rua rui barbosa
+brienne		,98545678, rua benjamin
+varys		,87687321, rua jose malcher
+petyr		,97894521, rua serzedelo
