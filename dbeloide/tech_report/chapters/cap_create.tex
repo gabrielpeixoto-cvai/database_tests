@@ -1,0 +1,49 @@
+\begin{section}{Metodologia}
+
+\subsection{Modelo do Banco}
+O modelo do banco foi mostrado em aula de laboratório pelo professor da
+disciplina e segue abaixo.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=.75\textwidth]{Figures/db_sch}
+    \caption{Esquemátio Entidade-Relacionamento}
+    \label{fig:db_schema}
+\end{figure}
+
+\subsection{Criação do Banco}
+A criação do Banco de dados foi feita como orientado pelo professor da
+disciplina nas aulas de laboratório a partir do esquema \ref{fig:db_schema}feito no software
+\textbf{DB Designer}.
+\lstinputlisting[language=SQL]{../db_designer/db_escola_workbench_ver.sql}
+
+\subsection{Inserção de Valores}
+A inserção de dados no Banco foi feita como orientado no enunciado da questão.
+
+\subsubsection{Responsáveis}
+\lstinputlisting[language=SQL]{../db_designer/responsaveis_insertion.sql}
+
+\subsubsection{Alunos}
+\lstinputlisting[language=SQL]{../db_designer/alunos_insertion.sql}
+
+\subsubsection{Professores}
+\lstinputlisting[language=SQL]{../db_designer/professor_insertion.sql}
+
+\subsubsection{Matérias}
+\lstinputlisting[language=SQL]{../db_designer/materia_insert.sql}
+
+\subsubsection{Formação das Turmas}
+\lstinputlisting[language=SQL]{../db_designer/turma_professor_materia_insert.sql}
+
+\subsubsection{Matrícula}
+\lstinputlisting[language=SQL]{../db_designer/Matricula_insert.sql}
+
+subsubsection{Notas}
+\lstinputlisting[language=SQL]{../db_designer/notas_insert.sql}
+
+\subsubsection{Mensalidade}
+\lstinputlisting[language=SQL]{../db_designer/mensalidade_insert.sql}
+
+\end{section}
+
+%%% EOF %%%

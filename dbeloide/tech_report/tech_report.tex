@@ -73,22 +73,14 @@
 
 \title{\huge
 	\vspace{40pt}
-	Somador Completo de Números de 8 bits com Sinal
+	Sistema de Banco de Dados de uma Escola
 	\vspace{25pt}
 }
 
 \author{
-	Cassio Trindade Batista\\
-	\texttt{cassio.batista.13@gmail.com}\\
-	\texttt{201106840003}
-	\and
 	Gabriel Peixoto de Carvalho\\
 	\texttt{gaburiero.c@gmail.com}\\
 	\texttt{201106840010}
-	\and
-	Pedro Henrique C. F. Soares\\
-	\texttt{pedrofigueiredoc@gmail.com}\\
-	\texttt{201106840007}
 	\and
 	Thiago Barros Coelho\\
 	\texttt{tbarroscoelho@gmail.com}\\
@@ -98,15 +90,15 @@
 \vspace{100pt}
 \begin{table}[!h]
 	\begin{tabular*}{.9\linewidth}{p{.45\linewidth}p{.45\linewidth}}
-	& Projeto apresentado à disciplina Projetos de Hardware e Interfaceamento 
+	& Projeto apresentado à disciplina Banco de Dados 
 	como requisito de avaliação.
-	Professores: Jeferson Breno N. Leite e Adalbery Rodrigues Castro.
+	Professor: Eloi Favero.
 	\end{tabular*}
 \end{table}
 \vfill
 Belém -- Brasil\\
 \vspace{2pt}
-Junho/2015
+Julho/2015
 }
 
 \begin{document}
@@ -124,13 +116,13 @@ Junho/2015
 \tableofcontents
 \listoffigures
 
-% Introdução -------------------------------------------------------------------
+% Introdução enunciado da questao-------------------------------------------------------------------
 \newpage
 \pagestyle{fancy}
-\input{chapters/cap_intro}
+\input{chapters/cap_enunciado}
 
-% Metodologia: Teorias aplicadas na implementação ------------------------------
-\input{chapters/cap_metodologia}
+% Esquemas e scripts de criação e insercao no banco ------------------------------
+\input{chapters/cap_create}
 
 % Implementação: Funcionamento do circuito -------------------------------------
 \input{chapters/cap_implement}
@@ -138,8 +130,8 @@ Junho/2015
 % Análise e Simulação: Modelsim ------------------------------------------------
 \input{chapters/cap_resultados}
 
-\bibliographystyle{ieeetr}
-\bibliography{tech_report}
+%\bibliographystyle{ieeetr}
+%\bibliography{tech_report}
 
 % Códigos e Background Matemático ----------------------------------------------
 \newpage

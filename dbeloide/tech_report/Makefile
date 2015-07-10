@@ -2,7 +2,6 @@ source=tech_report
 
 all: 
 	latex $(source).tex
-	bibtex $(source).aux
 	latex $(source).tex
 	latex $(source).tex
 	dvipdf $(source).dvi
