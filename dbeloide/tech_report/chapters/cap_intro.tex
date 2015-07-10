@@ -1,0 +1,53 @@
+\begin{section}{Enunciado da Questão}
+\textbf{Para o enunciado abaixo,}\\ 
+\textbf{(a) faça um modelo conceitual baseado na abordagem Entidade e Relacionamentos
+(E-R);  (feito a mão entregar no dia)... }\\
+\textbf{(b) desenhe no dB-designer com todos os campos e gere o esquema do BD (entregar
+o esquema textual e diagrama E-R impresso). }\\ 
+\textbf{(c) Crie um script para criar o BD no (Interbase ou MySQl...) e um script para
+dar carga  com pelo menos 40 alunos/responsáveis 5 professores e duas turmas. E
+faça todas as consultas em SQL (R1 até R6), mostrando a saída...}\\
+
+Considere uma escola de ensino fundamental. Nesta escola desejam-se informatizar
+diversos procedimentos, sendo coletados os requisitos que seguem. Primeiro é
+necessário um cadastro de pais (ou responsáveis). Cada aluno tem um responsável
+(um dos pais, ou outra pessoa). Para o responsável é necessário ter ID, nome e
+fone.  Todo responsável tem um endereço (string20 e.g. "rua pio X, nro13").\\
+Cada matrícula de um aluno vale para o ano corrente. Para o aluno guarda-se o
+nome e fone. Para cada aluno cria-se um ID (inteiro) que vale para todos os anos
+que o aluno permanecer no colégio. Além disso, anualmente, cada aluno recebe um
+número de matricula composto por (ano, série, turma, número seqüência). Exemplos
+de números de matricula 20083TA23, 20061TB05. Numa turma são aceitos no máximo
+50 alunos.\\
+São registrados os valores das provas bimestrais dos alunos (duas vezes por
+semestre), por matéria (português, matemática, geografia, etc). Se o aluno tirar
+nota inferior a 60 fica em recuperação no final de cada semestre, recebendo a
+nota da recuperação, que substitui a menor nota dos dois bimestres. Devem ser
+mantidos registros de todas as provas e recuperações todas notas de uma matéria
+são registradas nos campos (B1,B2,B3,B4,R1,R2: numeric(2)) para cada matricula. 
+O sistema deve emitir folhas de freqüência (Rel 1), com nome do professor de
+cada turma e dos alunos, e da identificação da sala (ex. S10, S15); emitir 3
+relatórios.  O sistema deve emitir os boletins de notas (Rel 2) bimestrais
+(cumulativo para o ano) para cada aluno; emitir relatório de notas para 3
+alunos; mostram-se as notas das provas, recuperações e médias semestrais e
+anuais. O sistema deve emitir um histórico cumulativo (Rel 3) para cada aluno
+considerando os vários anos; emitir 3 históricos. 
+Para os professores registram-se é necessário ter ID, nome e fone. São criados
+relatórios com os totais (quantidade) de alunos de recuperação de cada turma
+(Rel 4), com objetivo de prover orientação pedagógica para os alunos com pais. 
+O sistema também controla o pagamento da mensalidade de cada aluno. São emitidos
+boletos (Rel 5), com o endereço do responsável; Emitir 2 boletos, com reponsável
+e endereço e aluno. Para cada aluno devem ser registrados os valores mensais
+pagos; são registrados para cada ano os valores na base como (valorMens,
+m1,m2,m3,m4,...m12:float); meses são inicializados zerados, quando pagos
+marca-se o valor pago; o vencimento é o dia 7 de cada mês; é preciso registar a
+data do pagto. No momento da matricula é definido o valor a ser pago (valorMens)
+que pode ser reajustado durante o ano (somente o valor atual é registrado em
+valorMens). A qualquer momento o responsável pode solicitar um "extrato" dos
+valores pagos e/ou vencidos de um aluno, dentro de um ano (Rel 6); emitir o
+comprovante de três alunos. 
+
+\end{section}
+%https://en.wikipedia.org/wiki/Turing_machine
+%https://pt.wikipedia.org/wiki/História_da_computação
+%%% EOF %%%

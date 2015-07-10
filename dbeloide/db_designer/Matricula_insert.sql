@@ -1,138 +1,138 @@
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 1, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 1, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 2, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 2, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 3, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 3, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 4, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 4, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 5, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 5, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 6, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 6, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 7, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 7, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 8, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 8, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 9, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 9, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 10, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 10, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 11, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 11, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 12, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 12, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 13, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 13, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 14, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 14, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 15, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 15, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 16, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 16, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 17, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 17, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 18, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 18, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 19, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 19, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 20, 'A1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 20, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 21, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 21, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 22, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 22, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 23, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 23, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 24, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 24, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 25, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 25, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 26, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 26, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 27, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 27, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 28, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 28, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 29, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 29, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 30, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 30, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 31, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 31, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 32, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 32, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 33, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 33, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 34, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 34, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 35, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 35, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 36, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 36, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 37, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 37, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 38, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 38, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 39, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 39, 2);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 40, 'B1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 40, 1);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 41, 'C1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 41, 3);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 42, 'C1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 42, 3);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 43, 'C1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 43, 3);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 44, 'C1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 44, 3);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 45, 'C1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 45, 3);
 
-INSERT INTO Matricula(ano, aluno_idaluno, turma)
-VALUES(2014, 46, 'C1');
+INSERT INTO Matricula(ano, aluno_idaluno, tpm_id_turma)
+VALUES(2014, 46, 3);
 

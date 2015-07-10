@@ -1,0 +1,39 @@
+\begin{section}{Resultados}
+
+\subsection{Diagrama do Sistema}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.90\textwidth]{Figures/system_sch}
+    \caption{Esquemático do Sistema no QuartusII}
+    \label{fig:system}
+\end{figure}
+
+\subsection{Simulação}
+Todos os blocos do sistema foram devidamente simaulado sno \emph{ModelSim},
+muitos por se tratarem de blocos intermediários no sistema, não havia muito
+sentido em algumas delas.\\
+Abaixo é mostrada a saída da simulação do bloco somador:
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.85\textwidth]{Figures/tb_adder8}
+    \caption{Esquemático do Sistema no QuartusII}
+    \label{fig:system}
+\end{figure}
+
+\subsection{Execução}
+Na finalização do projeto há alguns pontos a serem salientados.\\
+
+\begin{itemize}
+    \item Durante o desenvolvimento do sistema houveram algumas diferenças na simulação e
+no código que foi mebarcado na fpga, então a partir de certo ponto foi optado o
+teste somente na placa.
+    \item Não houve tempo para tratamento de estouro de buffer, então em alguns
+        casos a saída era o resultado somado com um, o que foi resolvido
+        retirando a ligação entre carry in/carry out do primeiro para o segundo
+        somador.
+\end{itemize}
+
+\end{section}
+%%% EOF %%%

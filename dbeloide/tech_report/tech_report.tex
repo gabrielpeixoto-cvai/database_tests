@@ -1,0 +1,149 @@
+\documentclass[oneside]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{breakurl}
+\usepackage[left=2.7cm, right=2.7cm, bottom=3cm]{geometry}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\usepackage{listing}
+\usepackage{gensymb}
+\usepackage{caption}
+
+%\renewcommand*{\refname}{Referências Bibliográficas}
+
+\fancyfoot[c]{\thepage}
+\fancyhead[ro,le]{}
+\fancyhead[lo]{\leftmark}
+\fancyhead[re]{\rightmark}
+
+\lstset{%
+	linewidth=\textwidth,%framed box is the text size 
+	xleftmargin=.25in,
+	xrightmargin=.25in, 
+	frame=trbl, 
+	columns=flexible, 
+	captionpos=t, 
+	upquote=false,
+	basicstyle=\small\ttfamily,
+	firstnumber=1,% 
+	numberfirstline=false,% 
+	numbers=left,%
+	numberstyle=\tiny,% 
+	stepnumber=5,%
+	numbersep=5pt,% 
+	backgroundcolor=\color{green!15},% 
+	tabsize=4,% 
+	keywordstyle=\color{green!65!black},% 
+	commentstyle=\color{blue},% 
+	stringstyle=\color{magenta},% 
+	breaklines=true,% 
+	emph={label},%
+	abovecaptionskip=10pt,% 
+	belowcaptionskip={\abovecaptionskip},%
+	showstringspaces=false, 
+	literate={Ê}{{\^{E}}}1
+}%
+
+\lstdefinestyle{code} {%
+	basicstyle=\ttfamily\footnotesize,
+	backgroundcolor=\color{blue!10},
+	%escapeinside={@}{@},
+	frame=single, 
+	captionpos=t,
+	upquote=false,
+	numberfirstline=false,% 
+	stepnumber=5,%
+	tabsize=4,% 
+	keywordstyle=\color{green!65!black},% 
+	commentstyle=\color{blue},%
+	stringstyle=\color{magenta},% 
+	breaklines=true,% 
+	emph={label},%
+	abovecaptionskip=10pt,% 
+	belowcaptionskip={\abovecaptionskip},%
+}%
+
+\title{\huge
+	\vspace{40pt}
+	Somador Completo de Números de 8 bits com Sinal
+	\vspace{25pt}
+}
+
+\author{
+	Cassio Trindade Batista\\
+	\texttt{cassio.batista.13@gmail.com}\\
+	\texttt{201106840003}
+	\and
+	Gabriel Peixoto de Carvalho\\
+	\texttt{gaburiero.c@gmail.com}\\
+	\texttt{201106840010}
+	\and
+	Pedro Henrique C. F. Soares\\
+	\texttt{pedrofigueiredoc@gmail.com}\\
+	\texttt{201106840007}
+	\and
+	Thiago Barros Coelho\\
+	\texttt{tbarroscoelho@gmail.com}\\
+	\texttt{201106840041}
+}
+\date{
+\vspace{100pt}
+\begin{table}[!h]
+	\begin{tabular*}{.9\linewidth}{p{.45\linewidth}p{.45\linewidth}}
+	& Projeto apresentado à disciplina Projetos de Hardware e Interfaceamento 
+	como requisito de avaliação.
+	Professores: Jeferson Breno N. Leite e Adalbery Rodrigues Castro.
+	\end{tabular*}
+\end{table}
+\vfill
+Belém -- Brasil\\
+\vspace{2pt}
+Junho/2015
+}
+
+\begin{document}
+% capa ------------------------------------------------------------------------
+\thispagestyle{empty}
+\input{capa}
+
+% Título e Preâmbulo -----------------------------------------------------------
+\newpage
+\maketitle
+\thispagestyle{empty}
+
+% Sumário e Lista de Figuras ---------------------------------------------------
+\newpage
+\tableofcontents
+\listoffigures
+
+% Introdução -------------------------------------------------------------------
+\newpage
+\pagestyle{fancy}
+\input{chapters/cap_intro}
+
+% Metodologia: Teorias aplicadas na implementação ------------------------------
+\input{chapters/cap_metodologia}
+
+% Implementação: Funcionamento do circuito -------------------------------------
+\input{chapters/cap_implement}
+
+% Análise e Simulação: Modelsim ------------------------------------------------
+\input{chapters/cap_resultados}
+
+\bibliographystyle{ieeetr}
+\bibliography{tech_report}
+
+% Códigos e Background Matemático ----------------------------------------------
+\newpage
+\appendix
+%\input{apendice}
+\end{document}
+%%% EOF %%%
